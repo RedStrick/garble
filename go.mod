@@ -1,4 +1,4 @@
-module mvdan.cc/garble
+module github.com/RedStrick/garble
 
 go 1.25
 
@@ -19,3 +19,5 @@ require (
 )
 
 tool golang.org/x/tools/cmd/bundle
+
+replace mvdan.cc/garble => github.com/RedStrick/garble main
